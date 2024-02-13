@@ -1,0 +1,14 @@
+-   id: dataform-compile
+    name: dataform compile
+    entry: dataform compile
+    language: node
+    additional_dependencies: ["@dataform/cli@2.9.0"]
+    files: (\.sqlx|\.js)$
+    pass_filenames: false
+-   id: dataform-format
+    name: dataform format
+    entry: dataform format
+    language: node
+    additional_dependencies: ["@dataform/cli@2.9.0"]
+    files: (\.sqlx|\.js)$
+    pass_filenames: false
